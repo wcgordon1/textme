@@ -1,4 +1,7 @@
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  site: 'https://textmeasecret.com', // Replace with your actual domain
+  // If you're developing locally, you can use:
+  // site: 'http://localhost:3000',
+});
